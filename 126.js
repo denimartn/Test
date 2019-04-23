@@ -19,7 +19,7 @@ console.log(findMax([20, 40, 200, 301]))
 // with filter and reduce
 
 function findMax(arr) {
-    return arr.filter(item => item % 2 === 0).reduce((a, b) => Math.max(a, b));
+    return arr.filter(num => num % 2 === 0).reduce((acc, curr) => Math.max(acc, curr));
 }
 
 console.log(findMax([1,20,5,48,400]))
