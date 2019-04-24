@@ -1,5 +1,4 @@
-// 96. Write a JavaScript program to compute the sum of absolute differences of consecutive numbers of a given array of integers.
-
+// Source: https://www.w3resource.com/javascript-exercises/javascript-basic-exercise-96.php
 
 function abs(arr) {
     let result = 0;
@@ -9,7 +8,6 @@ function abs(arr) {
     return result;
 }
 
-abs([5,-10,3,-2])
 
 
 
