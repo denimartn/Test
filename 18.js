@@ -1,6 +1,4 @@
-
-
-// 18. Write a JavaScript program to check two given numbers and return true if one of the number is 50 or if their sum is 50. 
+// Source: https://www.w3resource.com/javascript-exercises/javascript-basic-exercise-18.php
 function checking(n1, n2) {
   if(n1 + n2 === 50 || n1 === 50 || n2 === 50) {
     return true;
@@ -8,5 +6,3 @@ function checking(n1, n2) {
     return false;
   }
 }
-
-checking(50, 5)
