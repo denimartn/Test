@@ -1,4 +1,4 @@
-// 126. Write a JavaScript program to get the largest even number from an array of integers. 
+// Source: https://www.w3resource.com/javascript-exercises/javascript-basic-exercise-126.php
 
 // with for loop
 function findMax(arr) {
@@ -12,16 +12,7 @@ function findMax(arr) {
     return Math.max(...newArr);
 }
 
-console.log(findMax([1,20,5,48,400]))
-console.log(findMax([20, 40, 200]))
-console.log(findMax([20, 40, 200, 301]))
-
 // with filter and reduce
-
 function findMax(arr) {
     return arr.filter(num => num % 2 === 0).reduce((acc, curr) => Math.max(acc, curr));
 }
-
-console.log(findMax([1,20,5,48,400]))
-console.log(findMax([20, 40, 200]))
-console.log(findMax([20, 40, 200, 301]))
