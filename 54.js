@@ -1,4 +1,5 @@
-// 54. Write a JavaScript program to count the number of vowels in a given string.  
+// Source: https://www.w3resource.com/javascript-exercises/javascript-basic-exercise-54.php 
+
 function checkVowels(str) {
     const vowels = ['a', 'e', 'i','o','u'];
     let counter = 0;
@@ -9,5 +10,3 @@ function checkVowels(str) {
     }
     return counter;
 }
-
-console.log(checkVowels('hello'))
