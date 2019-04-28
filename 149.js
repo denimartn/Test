@@ -1,4 +1,4 @@
-// 149. Write a JavaScript program to change the capitalization of all letters in a given string. 
+// Source: https://www.w3resource.com/javascript-exercises/javascript-basic-exercise-149.php
 
 // # with for loop
 
@@ -15,10 +15,6 @@ function trasforming(str) {
     return result;
 }
 
-console.log(trasforming('w3resource'));
-console.log(trasforming('Germany'));
-console.log(trasforming('hello'));
-
 // with map
 
 function trasforming(str) {
@@ -34,6 +30,3 @@ function trasforming(str) {
     return result;
 }
 
-console.log(trasforming('w3resource'));
-console.log(trasforming('Germany'));
-console.log(trasforming('hello'));
