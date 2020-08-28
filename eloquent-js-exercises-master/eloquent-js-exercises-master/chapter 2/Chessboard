@@ -1,0 +1,23 @@
+function printBoard(size) {
+  let board = '';
+  
+  for(let row = 0; row < size; row++) {
+    const rowRem = row % 2;
+    
+    for(let col = 0; col <= size; col++) {
+      
+      if(col === size) {
+        board += '\n';
+      } else if(rowRem === col % 2) {
+        board += '#';
+      } else {
+        board += ' ';
+      }
+    }
+  }
+console.log(board);
+}
+
+printBoard(8);
+
+
