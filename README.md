@@ -1,5 +1,9 @@
-# JS exercises
+# Project
 
-Some javascript exercises to improve my coding skills
+JavaScript exercises
 
 Source: https://www.w3resource.com/javascript-exercises/javascript-basic-exercises.php
+
+## Motivation
+
+Improve my algorithmic skills.
